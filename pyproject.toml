@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "cookiecutter-zephyr-downstream"
+version = "0.1.0"
+description = "A cookiecutter template for the fast creation of a zephyr downstream project"
+authors = ["Tobias Kaestner <tobias.kaestner.jena@gmail.com>"]
+license = "Apache 2"
+readme = "README.rst"
+packages = [{include = "cookiecutter_zephyr_downstream"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+cookiecutter = "^2.1.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.1"
+pytest-cookies = "^0.7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
