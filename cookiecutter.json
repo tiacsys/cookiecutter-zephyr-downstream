@@ -1,0 +1,9 @@
+{
+    "project_name": "Zephyr Downstream",
+    "project_name_slug": "{{ cookiecutter.project_name | slugify }}",
+    "project_org": "Acme Inc.",
+    "project_org_slug": "{{cookiecutter.project_org | slugify }}",
+    "repo_url": "https://github.com/{{cookiecutter.project_org_slug}}/{{cookiecutter.project_name_slug}}",
+
+    "_extensions":["cookiecutter.extensions.SlugifyExtension"]
+}
